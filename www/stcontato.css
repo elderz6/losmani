@@ -1,0 +1,72 @@
+#contato
+{
+width:60%;
+height:40eM;
+position:relative;
+clear:both;
+border-radius:20px;
+background-color:#febd8b;
+margin-right:20%;
+margin-left:20%;
+
+}
+textarea 
+{
+   resize: none;
+}
+
+#formulario
+{
+margin-top:5%;
+width:49%;
+float:left;
+overflow:hidden;
+}
+
+
+article
+{
+margin-top:5%;
+width:49%;
+float:right;
+text-align:center;
+font-style:oblique;
+}
+#ce
+{
+width:49%;
+float:right;
+margin-bottom:3%;
+margin-right:1%;
+}
+#tel
+{
+width:50%;
+clear:both;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) 
+{
+	#contato
+	{
+		width:100%;
+		margin:0;
+		height:55eM;
+	}
+	
+	
+	#formulario
+	{
+		width:100%;
+		margin:0;
+	}
+	
+		article
+		{
+			width:100%;
+			margin-top:0%;
+			
+		}
+		
+}
+

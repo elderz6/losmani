@@ -1,0 +1,70 @@
+@font-face
+{
+	font-family:eu;
+	src:url(font/yep2.otf);
+	
+}
+
+.nav-tabs
+{
+clear:both;
+width:60%;
+margin-left:20%;
+margin-right:20%;
+}
+.fotodesu
+{
+margin-left:20%;
+margin-right:20%;
+}
+.ingredientes
+{
+margin-left:20%;
+margin-right:20%;
+width:50%;
+background-color:white;
+color:#7e3f12;
+white-space: nowrap;
+border-radius:5px;
+font-family:eu;
+
+}
+.collapse
+{
+font-style:oblique;
+margin-left:20%;
+margin-right:20%;
+text-shadow: 1px 1px chocolate;
+}
+#home p
+{
+margin-left:20%;
+margin-right:20%;
+}
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 600px) 
+{
+.collapse
+{
+margin:0;
+width:100%;
+}
+.ingredientes
+{
+margin:0;
+width:100%;
+}
+.fotodesu
+{
+margin:0;
+}
+.nav-tabs
+{
+width:100%;
+margin:0;
+}
+
+}
